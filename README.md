@@ -1,6 +1,12 @@
 ### 说明：
 微信推出小程序，操作原理类似React Native,ionic framework
 现实现一个小程序版微票
+
+使用的数据接口:
+1. http://json.bmbstack.com/bannerList
+2. http://json.bmbstack.com/playingList
+3. http://json.bmbstack.com/cinemaList
+
 ### 目录结构：
 - style — 存放独立wxcss文件，可import引入
 - image — 存放项目图片
@@ -9,9 +15,11 @@
 - utils — 存放utils文件，可require引入
 
 ### 项目截图:
-<img src="https://raw.githubusercontent.com/wangmingjob/weapp-weipiao/master/screenshots/01.png"/>
-<img src="https://raw.githubusercontent.com/wangmingjob/weapp-weipiao/master/screenshots/02.png"/>
-<img src="https://raw.githubusercontent.com/wangmingjob/weapp-weipiao/master/screenshots/03.png"/>
+<img src="https://raw.githubusercontent.com/wangmingjob/weapp-weipiao/master/screenshots/01.png" width="375px" height="667px"/>
+
+<img src="https://raw.githubusercontent.com/wangmingjob/weapp-weipiao/master/screenshots/02.png" width="375px" height="667px"/>
+
+<img src="https://raw.githubusercontent.com/wangmingjob/weapp-weipiao/master/screenshots/03.png" width="375px" height="667px"/>
 ### 开发环境：
 微信web开发者工具 v0.9.092300
 
