@@ -12,6 +12,7 @@ Page( {
       url: '../logs/logs'
     })
   },
+
   onLoad: function() {
     var that = this
     //调用应用实例的方法获取全局数据
@@ -20,6 +21,12 @@ Page( {
       that.setData( {
         userInfo: userInfo
       })
+    })
+  },
+
+  onReady: function () {
+    wx.setNavigationBarTitle({
+      title: '我的'
     })
   }
 })

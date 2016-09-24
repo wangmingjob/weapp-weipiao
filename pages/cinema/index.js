@@ -4,7 +4,6 @@ Page({
     },
     //事件处理函数
     onLoad: function (options) {
-        this.title = options.type || '微票'
         var that = this
 
         //playingList
@@ -23,7 +22,7 @@ Page({
     },
     onReady: function () {
         wx.setNavigationBarTitle({
-            title: this.title
+            title: '电影院'
         })
     },
 })
