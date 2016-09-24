@@ -3,9 +3,10 @@
 现实现一个小程序版微票
 
 使用的数据接口:
-1. http://json.bmbstack.com/bannerList
-2. http://json.bmbstack.com/playingList
-3. http://json.bmbstack.com/cinemaList
+
+- http://json.bmbstack.com/bannerList
+- http://json.bmbstack.com/playingList
+- http://json.bmbstack.com/cinemaList
 
 ### 目录结构：
 - style — 存放独立wxcss文件，可import引入
